@@ -17,7 +17,7 @@ def my_function(X):
     for x in range(5, X):
         for y in range(4, X):
             for z in range(3, X):
-                if (x*x==y*y+z*z):
+                if (x*x==y*y+z*z):13
                     solutions.append([x, y, z])
     m = 0
     for solution in solutions:
